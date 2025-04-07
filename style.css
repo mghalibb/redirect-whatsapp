@@ -146,8 +146,11 @@ input[type="number"]::-webkit-outer-spin-button {
   position: relative;
   margin-bottom: 15px;
 }
-.message-box i {
+.message-box svg {
   position: absolute;
+  width: 25px;
+  height: 25px;
+  fill: #5b4f9e;
   top: 50%;
   left: 30px;
   transform: translateY(-50%);
