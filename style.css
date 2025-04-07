@@ -48,8 +48,11 @@ form {
   justify-content: center;
   align-items: center;
 }
-.name i {
+.name svg {
   position: absolute;
+  width: 25px;
+  height: 25px;
+  fill: #5b4f9e;
   top: 50%;
   left: 30px;
   transform: translateY(-50%);
@@ -75,8 +78,11 @@ form {
   position: relative;
   margin-bottom: 15px;
 }
-.phone i {
+.phone svg {
   position: absolute;
+  width: 25px;
+  height: 25px;
+  fill: #5b4f9e;
   top: 50%;
   left: 30px;
   transform: translateY(-50%);
@@ -110,8 +116,11 @@ input[type="number"]::-webkit-outer-spin-button {
   position: relative;
   margin-bottom: 15px;
 }
-.email i {
+.email svg {
   position: absolute;
+  width: 25px;
+  height: 25px;
+  fill: #5b4f9e;
   top: 50%;
   left: 30px;
   transform: translateY(-50%);
